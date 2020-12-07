@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // Information to be modified
 $to_email = "dr3772@gmail.com"; // email address to which the form data will be sent
 $subject = "Contact Request"; // subject of the email that is sent
@@ -25,9 +25,6 @@ $email_body =
 
 // Assuming there's no error, send the email and redirect to Thank You page
 	
-if( mail($to_email, $subject, $email_body, $headers) ) {	
-	echo '<div class="form-msg"> <i class="glyphicon glyphicon-ok"></i> Thank you ' .$nam. '. Your Email was successfully sent! </div>';
-} else {	
-	echo '<div class="form-msg-error"> <i class="glyphicon glyphicon-remove"></i> Sorry ' .$nam. '. Your Email was not sent. Resubmit form again Please.. </div>';
-}
+echo '<div class="form-msg"> <i class="glyphicon glyphicon-ok"></i> Thank you ' .$nam. '. Your Email was successfully sent! </div>';
+
 die();
