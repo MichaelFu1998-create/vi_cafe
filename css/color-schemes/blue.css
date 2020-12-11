@@ -21,11 +21,11 @@
 #portfolio ul > li a.active,#portfolio .item ul > li i:hover,
 /*Contact Section*/
 .form-control:focus{
-	color:#0099cc;
+	color:#cc6d00;
 }
 /*Mozilla placeholder*/
 .form-control:focus::-moz-placeholder{
-	color:#0099cc;
+	color:#cc6d00;
 }
 /*Services Section*/
 .service-block:hover div.fa{
@@ -51,7 +51,7 @@
 /*Contact Section*/
 .contact-block:hover .icon-circle
 {
-	background:#0099cc;
+	background:#cc6d00;
 }	
 
 /* ==========================Border Color==================== */
@@ -66,21 +66,21 @@
 #team .thumbnail:hover .caption,
 /*Contact Section*/
 .form-control:focus{
-  	 border-color:#0099cc;
+  	 border-color:#cc6d00;
 }
 /* ==========================Border Top Color==================== */
 /*Tool tip */	 
 .progress .tooltip-arrow,
 /*Working Section*/
 #working .tooltip-arrow{
-	 border-top-color:#0099cc !important;
+	 border-top-color:#cc6d00 !important;
 }
 /* ==========================Box Shadow==================== */
 /*Working Section*/
 #working .working-circle:hover{
-	box-shadow:0px 0px 7px #0099CC inset;
-	-moz-box-shadow:0px 0px 7px #0099CC inset;
-	-ms-box-shadow:0px 0px 7px #0099CC inset;
-	-o-box-shadow:0px 0px 7px #0099CC inset;
-	-webkit-box-shadow:0px 0px 7px #0099CC inset;
+	box-shadow:0px 0px 7px #cc6d00 inset;
+	-moz-box-shadow:0px 0px 7px #cc6d00 inset;
+	-ms-box-shadow:0px 0px 7px #cc6d00 inset;
+	-o-box-shadow:0px 0px 7px #cc6d00 inset;
+	-webkit-box-shadow:0px 0px 7px #cc6d00 inset;
 }	
